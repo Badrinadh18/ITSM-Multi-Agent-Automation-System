@@ -1,0 +1,2 @@
+app:
+  import_path: agents.app.orchestrator_app

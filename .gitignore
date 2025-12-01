@@ -1,0 +1,75 @@
+# ---------------------------------------
+# Python
+# ---------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.DS_Store
+
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# Byte-compiled / optimized files
+*.log
+
+# ---------------------------------------
+# Sensitive Files
+# ---------------------------------------
+.env
+*.env
+*.key
+*.secret
+*.token
+keys/
+secrets/
+
+# ---------------------------------------
+# ADK / Multi-Agent Generated Files
+# ---------------------------------------
+faiss_store.index
+faiss_docstore.pkl
+itsm_sessions.db
+observability_trace.csv
+observability.jsonl
+
+# Any temporary files created by agents or pipeline
+/tmp/
+temp/
+cache/
+*.tmp
+
+# ---------------------------------------
+# Logs
+# ---------------------------------------
+logs/
+*.log
+
+# ---------------------------------------
+# OS / Editor Files
+# ---------------------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ---------------------------------------
+# Build / Distribution
+# ---------------------------------------
+build/
+dist/
+*.egg-info/

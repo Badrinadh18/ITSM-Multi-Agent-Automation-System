@@ -1,0 +1,31 @@
+# --- Core Google ADK Framework ---
+google-adk
+
+# --- Gemini / Google GenAI ---
+google-genai
+
+# --- Async SQLite session backend ---
+aiosqlite
+
+# --- Vector KB / FAISS ---
+faiss-cpu
+
+# --- Web Server / API ---
+# fastapi
+# uvicorn
+
+# --- Core utilities ---
+python-dotenv
+numpy
+requests
+
+# --- Logging & file management ---
+loguru
+
+# --- Optional: MCP tool support (if mcp_tools.py is used) ---
+mcp
+
+
+# --- Testing ---
+pytest
+pytest-asyncio
